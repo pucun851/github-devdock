@@ -18,9 +18,9 @@ DevDock is a local-first GitHub workspace that keeps common GitHub tasks inside 
 
 ## 🖼️ Concept
 
-The visual concept is based on the supplied DevDock dashboard screens: navigation, GitHub connection state, account statistics, metric cards, activity stream, recent activity, and repository workspace.
+This preview shows the real DevDock interface used as the visual reference for the project.
 
-<p align="center"><a href="./docs/devdock-concept.svg"><img src="./docs/devdock-concept.svg" alt="DevDock dashboard concept" width="1000" /></a></p>
+<p align="center"><a href="./docs/devdock-concept.svg"><img src="./docs/devdock-concept.svg" alt="DevDock interface concept" width="1000" /></a></p>
 
 ## ✨ Features
 
@@ -72,7 +72,7 @@ npm install
 
 ### 3. Build the project
 
-**Run the build immediately after installation and before starting Vite.** This verifies TypeScript, Vite, CSS processing, and the dependency tree.
+Run the build immediately after installation and before starting Vite. This verifies TypeScript, Vite, CSS processing, and the dependency tree.
 
 ```bash
 npm run build
@@ -88,26 +88,50 @@ npm run dev
 
 Open the URL printed by Vite, normally `http://localhost:5173/`.
 
-### 5. Connect GitHub
+### 5. Connect GitHub API
 
-Open `Settings -> Account` and enter your GitHub username and a fine-grained Personal Access Token.
+DevDock uses a **GitHub Personal Access Token (PAT)** for GitHub API access. For the complete feature set, create a **fine-grained personal access token** and allow it to access the repositories you need.
 
-Never commit tokens, private keys, secrets, or credential-bearing `.env` files.
+👉 **Create a GitHub fine-grained token:**
 
-## 🔐 GitHub API permissions
+https://github.com/settings/personal-access-tokens/new
 
-For the **full administrative feature set**, the fine-grained token must include the permissions required by the actions you use.
+GitHub's official token documentation: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
-| Operation | Permission |
+Inside DevDock, open:
+
+```text
+Settings → Account
+```
+
+Then enter:
+
+```text
+GitHub username
+GitHub Personal Access Token
+```
+
+### 🔐 Required permissions
+
+For the **full administrative feature set**, the token must include the permissions required by the operations you use.
+
+| Operation | Fine-grained permission |
 | --- | --- |
-| Repository files / commits | Contents: Read and write |
-| Repository administration | Administration: Read and write |
+| Read repository data | Metadata: Read-only |
+| Create / edit / delete repository files | Contents: Read and write |
+| Create commits | Contents: Read and write |
+| Repository administration | **Administration: Read and write** |
 | Issues | Issues: Read and write |
 | Pull requests | Pull requests: Read and write |
 | Repository metadata | Metadata: Read-only |
-| Account actions | Matching account permissions |
 
-For administrative repository controls, **Administration: Read and write** is required. Limit the token to the repositories and permissions you actually need.
+**Important:** if you want DevDock to perform repository administration actions, **Administration → Read and write is required**.
+
+Fine-grained tokens can be restricted to selected repositories and specific permissions. GitHub recommends fine-grained tokens when they fit the use case. citeturn698448search4turn698448search2
+
+### ⚠️ Security
+
+Treat your token like a password. Never commit it to GitHub, place it in source code, or publish it in screenshots/logs. citeturn698448search4
 
 ## ▶️ Commands
 
@@ -155,7 +179,7 @@ github-devdock/
 
 ## 🎨 Visual style
 
-Near-black surfaces, glass-like panels, subtle borders, compact metadata, restrained cyan/blue accents, rounded cards, clear status states, and responsive navigation.
+Near-black surfaces, glass-like panels, subtle borders, compact metadata, restrained accents, rounded cards, clear status states, and responsive navigation.
 
 ## 🧯 Troubleshooting
 
@@ -195,7 +219,7 @@ npm run dev -- --port 5174
 
 ### GitHub API requests fail
 
-Check username, token validity, repository scope, and the permissions required by the operation.
+Check your username, token validity, selected repository access, and the permissions required by the operation. Administrative actions require **Administration: Read and write**.
 
 ## 🔧 Development workflow
 
@@ -225,6 +249,12 @@ npm run preview
 ```
 
 Deploy the generated `dist/` directory. Never hard-code a personal GitHub token into a public deployment.
+
+## 📚 Official GitHub API docs
+
+- Personal access tokens: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+- Fine-grained token permissions: https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens
+- REST API reference: https://docs.github.com/en/rest
 
 ## 📄 License
 
