@@ -1,0 +1,1 @@
+import {describe,it,expect,beforeEach} from 'vitest';import {cache} from '../src/services/cache';describe('cache',()=>{beforeEach(()=>localStorage.clear());it('stores values',()=>{cache.set('x',{ok:true});expect(cache.get('x')).toEqual({ok:true})})});

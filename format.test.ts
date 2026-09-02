@@ -1,0 +1,1 @@
+import {describe,it,expect} from 'vitest';import {compact,relative} from '../src/utils/format';describe('format',()=>{it('formats compact numbers',()=>expect(compact(12640)).toBe('13K'));it('formats recent timestamps',()=>expect(relative(new Date(Date.now()-3600000).toISOString())).toBe('1h ago'))});
