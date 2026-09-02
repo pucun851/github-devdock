@@ -1,125 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="920" viewBox="0 0 1440 920" role="img" aria-labelledby="title desc">
-  <title id="title">DevDock dashboard concept</title>
-  <desc id="desc">Neutral black DevDock concept matching the real application's visual palette.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#050505"/>
-      <stop offset="1" stop-color="#090909"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#111111"/>
-      <stop offset="1" stop-color="#0a0a0a"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
-      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.055"/>
-    </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.5"/>
-    </filter>
-  </defs>
-
-  <rect width="1440" height="920" fill="url(#bg)"/>
-  <rect width="1440" height="920" fill="url(#grid)"/>
-  <rect x="34" y="30" width="1372" height="860" rx="30" fill="#060606" stroke="#ffffff" stroke-opacity="0.08"/>
-
-  <rect x="58" y="54" width="1324" height="70" rx="18" fill="#080808" stroke="#ffffff" stroke-opacity="0.09"/>
-  <rect x="78" y="72" width="38" height="34" rx="10" fill="#141414" stroke="#ffffff" stroke-opacity="0.11"/>
-  <text x="97" y="95" text-anchor="middle" fill="#e8e8e8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">&lt;/&gt;</text>
-  <text x="130" y="95" fill="#f1f1f1" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">devdock</text>
-
-  <rect x="468" y="68" width="74" height="42" rx="21" fill="#181818"/>
-  <text x="505" y="94" text-anchor="middle" fill="#f4f4f4" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">Обзор</text>
-  <text x="584" y="94" fill="#808080" font-family="Inter,Arial,sans-serif" font-size="14">Репозитории</text>
-  <text x="694" y="94" fill="#808080" font-family="Inter,Arial,sans-serif" font-size="14">Активность</text>
-  <text x="795" y="94" fill="#808080" font-family="Inter,Arial,sans-serif" font-size="14">Поиск</text>
-  <text x="865" y="94" fill="#808080" font-family="Inter,Arial,sans-serif" font-size="14">Настройки</text>
-  <rect x="1186" y="68" width="114" height="42" rx="21" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.1"/>
-  <text x="1243" y="94" text-anchor="middle" fill="#9a9a9a" font-family="Inter,Arial,sans-serif" font-size="13">⌘K  Поиск</text>
-  <circle cx="1330" cy="89" r="20" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.1"/>
-  <text x="1330" y="95" text-anchor="middle" fill="#9b9b9b" font-family="Arial,sans-serif" font-size="14">☼</text>
-
-  <rect x="78" y="150" width="1284" height="54" rx="16" fill="#0f0f0f" stroke="#ffffff" stroke-opacity="0.1"/>
-  <circle cx="104" cy="177" r="8" fill="#ededed"/>
-  <text x="124" y="182" fill="#d2d2d2" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">GitHub</text>
-  <text x="124" y="199" fill="#6c6c6c" font-family="Inter,Arial,sans-serif" font-size="11">GitHub не подключён</text>
-  <rect x="1182" y="161" width="154" height="32" rx="10" fill="#151515" stroke="#ffffff" stroke-opacity="0.12"/>
-  <text x="1259" y="181" text-anchor="middle" fill="#e7e7e7" font-family="Inter,Arial,sans-serif" font-size="12">Подключить GitHub ↗</text>
-
-  <g filter="url(#shadow)">
-    <rect x="78" y="228" width="790" height="286" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
-    <rect x="894" y="228" width="468" height="286" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
-  </g>
-
-  <text x="104" y="260" fill="#626262" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">DEVDOCK WORKSPACE</text>
-  <circle cx="104" cy="304" r="4" fill="#eeeeee"/>
-  <text x="118" y="308" fill="#7e7e7e" font-family="Inter,Arial,sans-serif" font-size="13">GitHub не подключён</text>
-  <rect x="104" y="326" width="86" height="86" rx="26" fill="#151515" stroke="#ffffff" stroke-opacity="0.09"/>
-  <text x="147" y="377" text-anchor="middle" fill="#ededed" font-family="Arial,sans-serif" font-size="34">●</text>
-  <text x="214" y="375" fill="#f5f5f5" font-family="Georgia,serif" font-size="48" font-weight="700">Developer Dashboard</text>
-  <text x="214" y="408" fill="#787878" font-family="Inter,Arial,sans-serif" font-size="16">Подключи GitHub, чтобы пользоваться реальными данными и действиями.</text>
-
-  <text x="920" y="260" fill="#626262" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">СТАТИСТИКА АККАУНТА</text>
-  <text x="1320" y="260" fill="#707070" font-family="Inter,Arial,sans-serif" font-size="15">−</text>
-  <text x="920" y="354" fill="#f3f3f3" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="700">—</text>
-  <text x="920" y="382" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="13">звёзд</text>
-  <line x1="920" y1="422" x2="1334" y2="422" stroke="#ffffff" stroke-opacity="0.08"/>
-  <text x="920" y="456" fill="#f3f3f3" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">—</text>
-  <text x="920" y="476" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="11">Forks</text>
-  <text x="1058" y="456" fill="#f3f3f3" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">—</text>
-  <text x="1058" y="476" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="11">Репозитории</text>
-  <text x="1210" y="456" fill="#f3f3f3" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">—</text>
-  <text x="1210" y="476" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="11">События</text>
-
-  <g>
-    <rect x="78" y="536" width="307" height="108" rx="20" fill="#101010" stroke="#ffffff" stroke-opacity="0.1"/>
-    <rect x="401" y="536" width="307" height="108" rx="20" fill="#101010" stroke="#ffffff" stroke-opacity="0.1"/>
-    <rect x="724" y="536" width="307" height="108" rx="20" fill="#101010" stroke="#ffffff" stroke-opacity="0.1"/>
-    <rect x="1047" y="536" width="315" height="108" rx="20" fill="#101010" stroke="#ffffff" stroke-opacity="0.1"/>
-  </g>
-  <text x="101" y="564" fill="#cfcfcf" font-family="Inter,Arial,sans-serif" font-size="16">ϟ</text>
-  <text x="101" y="610" fill="#f1f1f1" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700">—</text>
-  <text x="101" y="628" fill="#686868" font-family="Inter,Arial,sans-serif" font-size="11">Репозитории</text>
-  <text x="424" y="564" fill="#cfcfcf" font-family="Inter,Arial,sans-serif" font-size="16">☆</text>
-  <text x="424" y="610" fill="#f1f1f1" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700">—</text>
-  <text x="424" y="628" fill="#686868" font-family="Inter,Arial,sans-serif" font-size="11">звёзд</text>
-  <text x="747" y="564" fill="#cfcfcf" font-family="Inter,Arial,sans-serif" font-size="16">⌘</text>
-  <text x="747" y="610" fill="#f1f1f1" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700">—</text>
-  <text x="747" y="628" fill="#686868" font-family="Inter,Arial,sans-serif" font-size="11">Forks</text>
-  <text x="1070" y="564" fill="#cfcfcf" font-family="Inter,Arial,sans-serif" font-size="16">♙</text>
-  <text x="1070" y="610" fill="#f1f1f1" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700">—</text>
-  <text x="1070" y="628" fill="#686868" font-family="Inter,Arial,sans-serif" font-size="11">подписчиков</text>
-
-  <g filter="url(#shadow)">
-    <rect x="78" y="666" width="614" height="188" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
-    <rect x="718" y="666" width="644" height="188" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
-  </g>
-  <text x="104" y="698" fill="#f4f4f4" font-family="Georgia,serif" font-size="20" font-weight="700">Поток активности</text>
-  <text x="104" y="719" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="12">Публичные события</text>
-  <rect x="560" y="689" width="108" height="28" rx="14" fill="#151515" stroke="#ffffff" stroke-opacity="0.08"/>
-  <circle cx="576" cy="703" r="4" fill="#eeeeee"/>
-  <text x="589" y="707" fill="#777777" font-family="Inter,Arial,sans-serif" font-size="11">Ожидание</text>
-  <g transform="translate(102 758)">
-    <rect width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="65" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="130" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="195" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="260" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="325" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="390" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-    <rect x="455" width="55" height="16" rx="6" fill="#d2d2d2" opacity="0.7"/>
-  </g>
-  <text x="102" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">Jan</text>
-  <text x="204" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">Mar</text>
-  <text x="306" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">May</text>
-  <text x="408" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">Jul</text>
-  <text x="510" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">Sep</text>
-  <text x="610" y="805" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="10">Dec</text>
-
-  <text x="744" y="698" fill="#f4f4f4" font-family="Georgia,serif" font-size="20" font-weight="700">Последняя активность</text>
-  <text x="744" y="719" fill="#696969" font-family="Inter,Arial,sans-serif" font-size="12">GitHub не подключён</text>
-  <text x="1260" y="701" fill="#858585" font-family="Inter,Arial,sans-serif" font-size="11">Активность →</text>
-  <text x="744" y="757" fill="#555555" font-family="Inter,Arial,sans-serif" font-size="13">Нет доступных публичных событий.</text>
-  <line x1="744" y1="808" x2="1296" y2="808" stroke="#ffffff" stroke-opacity="0.045"/>
-  <line x1="1020" y1="808" x2="1110" y2="808" stroke="#8fc3d8" stroke-opacity="0.35" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="1230" viewBox="0 0 1228 1230">
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".025"/><circle cx="1" cy="1" r=".8" fill="#ffffff" fill-opacity=".04"/></pattern><linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0d0d"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient></defs>
+<rect width="1228" height="1230" fill="#050505"/><rect width="1228" height="1230" fill="url(#grid)"/><rect width="1228" height="62" fill="#060606"/><line x1="0" y1="61.5" x2="1228" y2="61.5" stroke="#fff" stroke-opacity=".06"/>
+<rect x="76" y="15" width="34" height="34" rx="10" fill="#111111" stroke="#fff" stroke-opacity=".1"/><text x="93" y="37" text-anchor="middle" fill="#eee" font-family="Arial,sans-serif" font-size="15" font-weight="700">&lt;/&gt;</text><text x="121" y="37" fill="#eee" font-family="Arial,sans-serif" font-size="15" font-weight="700">devdock</text>
+<rect x="392" y="14" width="57" height="35" rx="18" fill="#171717"/><text x="420" y="36" text-anchor="middle" fill="#f1f1f1" font-family="Arial,sans-serif" font-size="12" font-weight="600">Обзор</text><text x="463" y="36" fill="#777" font-family="Arial,sans-serif" font-size="12">Репозитории</text><text x="560" y="36" fill="#777" font-family="Arial,sans-serif" font-size="12">Активность</text><text x="650" y="36" fill="#777" font-family="Arial,sans-serif" font-size="12">Поиск</text><text x="709" y="36" fill="#777" font-family="Arial,sans-serif" font-size="12">Настройки</text><rect x="966" y="14" width="104" height="35" rx="18" fill="#0b0b0b" stroke="#fff" stroke-opacity=".08"/><text x="1018" y="36" text-anchor="middle" fill="#858585" font-family="Arial,sans-serif" font-size="11">⌘K  Поиск</text><circle cx="1095" cy="31" r="18" fill="#0b0b0b" stroke="#fff" stroke-opacity=".08"/><text x="1095" y="37" text-anchor="middle" fill="#888" font-family="Arial,sans-serif" font-size="13">☼</text>
+<rect x="76" y="112" width="1072" height="59" rx="17" fill="#0f0f0f" stroke="#fff" stroke-opacity=".1"/><circle cx="98" cy="136" r="7" fill="#e9e9e9"/><text x="114" y="140" fill="#ddd" font-family="Arial,sans-serif" font-size="12" font-weight="600">GitHub</text><text x="114" y="155" fill="#666" font-family="Arial,sans-serif" font-size="9">GitHub не подключён</text><rect x="998" y="123" width="133" height="34" rx="10" fill="#151515" stroke="#fff" stroke-opacity=".1"/><text x="1064" y="144" text-anchor="middle" fill="#ddd" font-family="Arial,sans-serif" font-size="10">Подключить GitHub ↗</text>
+<rect x="76" y="192" width="671" height="408" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".11"/><rect x="766" y="192" width="382" height="408" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".11"/><text x="99" y="223" fill="#5f5f5f" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.8">DEVDOCK WORKSPACE</text><circle cx="101" cy="263" r="3.5" fill="#eee"/><text x="114" y="267" fill="#777" font-family="Arial,sans-serif" font-size="10">GitHub не подключён</text><rect x="98" y="282" width="84" height="84" rx="25" fill="#151515" stroke="#fff" stroke-opacity=".09"/><circle cx="140" cy="324" r="8" fill="#eee"/><text x="202" y="326" fill="#f3f3f3" font-family="Georgia,serif" font-size="44" font-weight="700">Developer Dashboard</text><text x="202" y="355" fill="#717171" font-family="Arial,sans-serif" font-size="11">Подключи GitHub, чтобы пользоваться реальными данными и действиями.</text>
+<text x="789" y="223" fill="#5f5f5f" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.8">СТАТИСТИКА АККАУНТА</text><text x="1110" y="224" fill="#6b6b6b" font-family="Arial,sans-serif" font-size="13">−</text><text x="789" y="299" fill="#f2f2f2" font-family="Arial,sans-serif" font-size="42" font-weight="700">—</text><text x="789" y="329" fill="#666" font-family="Arial,sans-serif" font-size="10">звёзд</text><line x1="789" y1="375" x2="1110" y2="375" stroke="#fff" stroke-opacity=".07"/><text x="789" y="405" fill="#eee" font-family="Arial,sans-serif" font-size="18" font-weight="700">—</text><text x="789" y="422" fill="#666" font-family="Arial,sans-serif" font-size="9">Forks</text><text x="906" y="405" fill="#eee" font-family="Arial,sans-serif" font-size="18" font-weight="700">—</text><text x="906" y="422" fill="#666" font-family="Arial,sans-serif" font-size="9">Репозитории</text><text x="1030" y="405" fill="#eee" font-family="Arial,sans-serif" font-size="18" font-weight="700">—</text><text x="1030" y="422" fill="#666" font-family="Arial,sans-serif" font-size="9">События</text>
+<g fill="#0f0f0f" stroke="#fff" stroke-opacity=".1"><rect x="76" y="619" width="252" height="109" rx="20"/><rect x="344" y="619" width="252" height="109" rx="20"/><rect x="612" y="619" width="252" height="109" rx="20"/><rect x="880" y="619" width="268" height="109" rx="20"/></g><text x="97" y="646" fill="#ccc" font-family="Arial,sans-serif" font-size="16">ϟ</text><text x="97" y="686" fill="#eee" font-family="Arial,sans-serif" font-size="25" font-weight="700">—</text><text x="97" y="706" fill="#666" font-family="Arial,sans-serif" font-size="9">Репозитории</text><text x="365" y="646" fill="#ccc" font-family="Arial,sans-serif" font-size="16">☆</text><text x="365" y="686" fill="#eee" font-family="Arial,sans-serif" font-size="25" font-weight="700">—</text><text x="365" y="706" fill="#666" font-family="Arial,sans-serif" font-size="9">звёзд</text><text x="633" y="646" fill="#ccc" font-family="Arial,sans-serif" font-size="16">⌘</text><text x="633" y="686" fill="#eee" font-family="Arial,sans-serif" font-size="25" font-weight="700">—</text><text x="633" y="706" fill="#666" font-family="Arial,sans-serif" font-size="9">Forks</text><text x="901" y="646" fill="#ccc" font-family="Arial,sans-serif" font-size="16">♙</text><text x="901" y="686" fill="#eee" font-family="Arial,sans-serif" font-size="25" font-weight="700">—</text><text x="901" y="706" fill="#666" font-family="Arial,sans-serif" font-size="9">подписчиков</text>
+<rect x="76" y="747" width="573" height="293" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".11"/><rect x="672" y="747" width="476" height="293" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".11"/><text x="98" y="781" fill="#f0f0f0" font-family="Georgia,serif" font-size="19" font-weight="700">Поток активности</text><text x="98" y="804" fill="#666" font-family="Arial,sans-serif" font-size="10">Публичные события</text><rect x="560" y="774" width="82" height="26" rx="13" fill="#151515" stroke="#fff" stroke-opacity=".08"/><circle cx="575" cy="787" r="3.5" fill="#eee"/><text x="585" y="791" fill="#707070" font-family="Arial,sans-serif" font-size="9">Ожидание</text><g transform="translate(98 943)"><rect width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="48" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="96" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="144" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="192" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="240" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="288" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="336" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="384" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="432" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/><rect x="480" width="39" height="13" rx="5" fill="#cfcfcf" opacity=".72"/></g><text x="98" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">Jan</text><text x="186" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">Mar</text><text x="282" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">May</text><text x="378" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">Jul</text><text x="474" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">Sep</text><text x="570" y="973" fill="#555" font-family="Arial,sans-serif" font-size="9">Dec</text>
+<text x="694" y="781" fill="#f0f0f0" font-family="Georgia,serif" font-size="19" font-weight="700">Последняя активность</text><text x="694" y="804" fill="#666" font-family="Arial,sans-serif" font-size="10">GitHub не подключён</text><text x="1063" y="784" fill="#777" font-family="Arial,sans-serif" font-size="9">Активность →</text><text x="694" y="851" fill="#555" font-family="Arial,sans-serif" font-size="12">Нет доступных публичных событий.</text><line x1="694" y1="936" x2="1116" y2="936" stroke="#fff" stroke-opacity=".04"/><line x1="994" y1="936" x2="1078" y2="936" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+<text x="77" y="1080" fill="#f1f1f1" font-family="Georgia,serif" font-size="17" font-weight="700">Избранные репозитории</text><text x="77" y="1101" fill="#5f5f5f" font-family="Arial,sans-serif" font-size="10">Реальные данные GitHub</text><text x="1067" y="1082" fill="#777" font-family="Arial,sans-serif" font-size="9">Все репозитории →</text><circle cx="1144" cy="1178" r="17" fill="#f2f2f2"/><circle cx="1144" cy="1178" r="8" fill="#8a8a8a"/>
 </svg>
